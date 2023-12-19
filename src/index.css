@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+
+body {
+  overflow-y: scroll;
+  padding-bottom: 50px;
+} 
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#navbaredit{
+    background-color: rgba(255, 0, 0, 0.979);
+}
+
+.dropdown a{
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    font-weight: medium;
+}
+
+.dropdown-menu{
+    border-radius: 0px;
+    padding: 1px 0px 0px 0px;
+    min-width: 13rem;
+}
+
+.dropdown-menu a{
+    font-family: 'Titillium Web';
+    font-size: 18px;
+    color: white;
+}
+
+.dropdown-item{
+    background: rgba(0,0,0,.4);
+    margin-bottom: 1px;
+    padding: 2px 25px 2px 5px;
+}
+
+.dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 10px;
+    transition: .5s;
+}
+
+#message{
+    display: flex;
+    flex-direction: row;
+    max-width: 749px;
+    margin: 15px 371px 15px 5px;
+    border: solid 1px;
+    border-color: red;
+    border-radius: 0%;
+    padding-left: 0px;
+}
+
+#message div{
+    max-height: 100%;
+    min-width: 50px;
+    background-color: red;
+    border: 0px;
+}
+
+#message p{
+    margin: 5px 10px 5px 10px;
+    font-family: 'Bree Serif', serif;
+    font-size: 12px;
+}
+
+#news-link{
+    color: black;
+    text-decoration: none;
+}
+
+#news-title{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+}
+
+#news-time{
+    font-family: 'Titillium Web';
+    font-size: 12px;
+    margin-bottom: 0.5rem;
+}
+
+#news-info{
+    font-family: 'Titillium Web';
+    font-size: 16px;
+    text-overflow: ellipsis;
+}
+
+.ep-text {
+    font-family: 'Bree Serif';
+    font-size: 25px;
+    color: #0C1312;
+    margin: 0px 0px 15px -7px;
+}
+
+.card-header{
+    background-color: rgba(255, 0, 0, 0.979);
+    border-radius: 0px;
+    font-family: 'Bree Serif';
+    text-decoration: none;
+}
+
+.card-header h5 a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+}
+
+#style-volume div p{
+    font-family: "Merriweather";
+    font-size: 14px;
+}
+
+#style-volume li {
+    margin: -1px 0px 0px 0px;
+    padding: 13px 0px 0px 0px;
+    font-family: "Merriweather";
+    font-size: 14px;
+}
+
+#pagination li a{
+    text-decoration: none;
+    color: white;
+    font-family: "Merriweather";
+    font-size: .9em;
+    font-weight: 600;
+    border-radius: 0px;
+    background-color: rgba(255, 0, 0, 0.979);
+}
+
+.modal-content{
+    border-radius: 0px;
+    background-color: rgba(255, 0, 0, 0.979);
+}
+
+.modal-title{
+    font-family: 'Bree Serif';
+    font-size: 30px;
+    color: white;
+}
+
+#login .form-label{
+    font-family: 'Bree Serif';
+    font-size: 20px;
+    color: white;
+}
+
+label{
+    font-family: 'Bree Serif';
+    font-size: 16px;
+    color: black;
+}
+
+input{
+    font-family: 'Titillium Web';
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#login .form-control{
+    font-family: 'Bree Serif';
+    background-color: rgba(255, 0, 0, 0.979);
+    border: 2px solid;
+    color: white;
+}
+
+#submit_button{
+    background-color: rgb(236,208,74);
+    border: 0px;
+    color: black;
+    font-family: 'Bree Serif';
+}
+
+.loja{
+    font-family: 'Bree Serif', serif;
+    font-size: 16px;
+    color: white;
+    text-shadow: black 2px 0px 0px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+#id-header-volume1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#id-header-volume1 a{
+    text-decoration: none;
+    
+}
+
+#botao-comprar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.979);
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+#botao-maismenos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.979);
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+
+#botao-maismenos #menosmais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 6px 6px 6px;
+    width: 35%;
+    cursor: pointer;
+}
+
+#quantidade{
+    display: flex;
+    width: 40%;
+    justify-content: center;    
+}
+
+#botao-comprar:hover{
+    background-color: rgba(255, 0, 0, 0.692);
+}
+
+#botao-maismenos #menosmais:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#titulo-card{
+    font-family: 'Titillium Web';
+    font-size: 18px;
+}
+
+.navegacao{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.navlink{
+    font-family: 'Bree Serif';
+    font-size: 23px;
+    width: 50%;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cardhover{
+    padding-top: 10px;
+
+    margin-bottom: 10px;
+}
+
+#cardhover:hover {
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); 
+    transform: scale(1.03);
+    transition: transform 0.4s ease; 
+}
+
+#produto-carrinho-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#produto-carrinho-info img{
+    margin: 17px;
+}
+
+#produto-carrinho-info h1{
+    font-family: 'Bree Serif';
+    font-size: 25px;
+    text-align: left;
+}
+
+#produto-carrinho-info p{
+    font-family: 'Titillium Web';
+    font-weight: 500;
+    font-size: 20px;
+    text-align: left;
+}
+
+#tabela th{
+    border-right: none;
+    border-left: none;
+    font-family: 'Bree Serif';
+    font-size: 17px;
+}
+
+td{
+    font-family: 'Titillium Web';
+    font-size: 17px;
+}
+
+th{
+    font-family: 'Bree Serif';
+    font-size: 17px;
+}
+
+#tabela td{
+    border-right: none;
+    border-left: none;
+    font-family: 'Titillium Web';
+    font-size: 17px;
+}
+
+#cardtitle{
+    font-family: 'Bree Serif';
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+#cardproduto{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 30px;
+}
+
+#cardproduto img{
+    width: 40%;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+
+}
+
+#cardinfoproduto{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+#tabela2{
+    border: 0;
+}
+
+#tabela2 td{
+    border-right: none;
+    border-left: none;
+    font-family: 'Titillium Web';
+    font-size: 17px;
+}
+
+#tabela2 td{
+    border-bottom: none;
+    border-top: none;
+    font-family: 'Titillium Web';
+    font-size: 17px;
+}
