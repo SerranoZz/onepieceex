@@ -164,7 +164,7 @@ public class Sb01Application implements CommandLineRunner {
 		produtoRepository.save(produto);
 
 		produto = new Produto(
-				"https://uatari.com.br/wp-content/uploads/2023/11/15228616686_UAAF-079-3.jpg",
+				"https://66703.cdn.simplo7.net/static/66703/sku/action-figures-banpresto-action-figure-one-piece-vinsmoke-sanji-battle-record-collection-banpresto--p-1689354020249.jpg",
 				ac,
 				"VINSMOKE SANJI",
 				"Action Figure do personagem Vinsmoke Sanji do anime One Piece",
